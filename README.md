@@ -278,3 +278,4 @@ python identify_speaker.py --stream outputs/sample_session.wav --window 1.50 --s
 ## 8. License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
