@@ -1,0 +1,31 @@
+{
+  "project": "Project 83: Real-Time Speaker Identification",
+  "model": {
+    "architecture": "VoiceIDNet (Deep Convolutional d-Vector Extractor)",
+    "parameters": 456682,
+    "embedding_dim": 256,
+    "model_size_mb": 1.7421035766601562
+  },
+  "biometric_metrics": {
+    "enrolled_speakers": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "Diana",
+      "Evan"
+    ],
+    "auth_threshold": 0.7,
+    "mean_genuine_cosine_similarity": 0.9998402897516886,
+    "mean_impostor_cosine_similarity": -0.06219150585432847,
+    "impostor_rejection_rate_pct": 100.0,
+    "top1_identification_accuracy_pct": 98.9
+  },
+  "latency_benchmark": {
+    "mean_decision_ms": 9.832225573786747,
+    "median_decision_ms": 7.079177999912645,
+    "p95_decision_ms": 18.31347299957997,
+    "step_budget_ms": 250.0,
+    "real_time_factor_rtf": 0.03932890229514699,
+    "throughput_decisions_per_sec": 101.70637283445315
+  }
+}
